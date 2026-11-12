@@ -1,0 +1,6 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {},
+  "include": ["./app", "src/components/CartItem.jsx"],
+  "exclude": ["node_modules", "supabase"]
+}

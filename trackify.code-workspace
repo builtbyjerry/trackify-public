@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "project-root",
+      "path": "./"
+    },
+    {
+      "name": "mobile-app",
+      "path": "trackify"
+    },
+    {
+      "name": "edge-functions",
+      "path": "supabase/functions"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules/": true,
+      "trackify/": true,
+      "supabase/functions/": true
+    },
+    "deno.importMap": "./supabase/functions/import_map.json",
+    "references.preferredLocation": "view",
+    "deno.enable": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
+}
